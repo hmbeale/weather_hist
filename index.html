@@ -3,10 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <title>weather</title>
-  <link rel="stylesheet" type="text/css" href="style.css"><link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="H:\weather_hist\favicon.png"/>
 </head>
 <body>
-      <p>Check developer console.</p>
+  <div class = "container">
+    <div class = "prompt">
+      <p> Enter a zipcode.</p>
+    </div>
+    <div class = "formContainer">
+      <form>
+        <br>
+        <input type="text" name="zip" required >
+        <input type="submit" value="Submit"  >
+        <div class = "display" id = "display"></div>
+  </div>
+
+</form>
+</div>
 
   <script src="weather.js"></script>
 </body>
