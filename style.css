@@ -16,6 +16,10 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+p{
+  margin-bottom: 20px;
+}
+
 input[type=submit] {
     width: 100%;
     background-color: #4CAF50;
